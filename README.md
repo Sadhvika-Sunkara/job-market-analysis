@@ -1,29 +1,46 @@
-# I Built a Data Pipeline to Analyze the Job Market I'm Trying to Enter
+# 📊 Job Market Analysis — Data Science Career Pipeline
 
-A 4-part series applying data cleaning, statistical analysis, machine learning, and an agent built on top of all three, to real job postings — as a Data Science student job-hunting for Data Analyst / Data Scientist / Data Engineer / AI Engineer roles. Each part is a real, working pipeline with real evaluation numbers, not toy-dataset filler.
+> A 4-part end-to-end data science series: from raw job postings to an AI agent that predicts roles and gaps — built by a Data Science student analysing the exact market she's entering.
 
-| Part | Article | Question | Data |
-|---|---|---|---|
-| 1 | [What 95 Real Job...](https://medium.com/@sadhvikasunkara4/i-built-a-data-pipeline-to-analyze-the-job-market-im-trying-to-enter-part-1-what-95-real-job-f6d8754fc7d6) | What does a real, small sample of the market actually look like? | 95 Indeed postings, early 2016, VA/DC/MD |
-| 2 | [Can a Job Title...](https://medium.com/@sadhvikasunkara4/i-built-a-data-pipeline-to-analyze-the-job-market-im-trying-to-enter-part-2-can-a-job-title-841a9585ec62) | Can a job title alone predict required skills? | Same 95 postings, title-only, LOOCV |
-| 3 | [Building a Model...(The ML)](https://medium.com/@sadhvikasunkara4/building-a-model-to-predict-what-skills-you-actually-need-part-3-the-ml-9baf05bca00f) | At real scale, with full posting text, can a model tell what *role* a posting is for? | 7,523 postings, held-out test set + CV |
-| 4 | [I Built an AI Agent...(The Agent)](part4_agent/article.md) | Can that classifier + retrieval actually tell someone what to learn — and where does it break? | Part 3's 7,523 postings + 9 live Sept-2026 postings |
+## 🌐 Read the full series on Medium
+| Part | Article | What it answers |
+|------|---------|----------------|
+| 1 | [📄 What 95 Real Job Postings Reveal](https://medium.com/@sadhvikasunkara4/i-built-a-data-pipeline-to-analyze-the-job-market-im-trying-to-enter-part-1-what-95-real-job-f6d8754fc7d6) | What does the real job market actually look like? |
+| 2 | [🔍 Can a Job Title Predict Required Skills?](https://medium.com/@sadhvikasunkara4/i-built-a-data-pipeline-to-analyze-the-job-market-im-trying-to-enter-part-2-can-a-job-title-841a9585ec62) | Title-only signal — how far can it go? |
+| 3 | [🤖 Building an ML Role Classifier](https://medium.com/@sadhvikasunkara4/building-a-model-to-predict-what-skills-you-actually-need-part-3-the-ml-9baf05bca00f) | Can ML classify DA vs DS vs DE vs AI from job text? |
+| 4 | [🧠 I Built an AI Agent That Tells You Exactly What to Learn](https://medium.com/@sadhvikasunkara4/i-built-an-ai-agent-that-tells-you-exactly-what-to-learn-to-get-hired-part-4-the-agent-73c487b242ac) | Can the classifier + retrieval tell someone what to learn? |
 
-## Repo structure
+---
 
+## 🏗️ Architecture
+
+```mermaid
+graph LR
+    A[🌐 Raw Job Postings<br/>Indeed · LinkedIn · Glassdoor] --> B[Part 1: Data Cleaning<br/>95 postings · role + skill tagging]
+    B --> C[Part 2: Skill Prediction<br/>Title-only · LOOCV · 16 skills]
+    C --> D[Part 3: Role Classifier<br/>7523 postings · TF-IDF · Linear SVM<br/>0.874 accuracy]
+    D --> E[Part 4: AI Agent<br/>Retrieval + Classifier<br/>Role prediction + gap analysis]
+
+    style A fill:#1a3a5c,color:#fff
+    style B fill:#1a5c3a,color:#fff
+    style C fill:#5c3a1a,color:#fff
+    style D fill:#3a1a5c,color:#fff
+    style E fill:#5c1a3a,color:#fff
 ```
-part1_dataset_cleaning/    raw scrape -> cleaned, role/skill-tagged dataset (95 rows)
-part2_skill_prediction/    per-skill title-only classifiers, LOOCV (16 skills)
-part3_role_classifier/     4-class role classifier on full description text (7,523 rows)
-part4_agent/               retrieval + the Part 3 classifier, wrapped into a queryable agent
-```
 
-Each folder has its own README with the exact question it answers, how to run the code, and the real results.
+---
 
-## Why the dataset size jumps from 95 to 7,523
+## 📊 Key results
 
-Part 2's honest conclusion was that title-only signal from 95 postings — one metro area, one quarter of 2016 — had hit its ceiling: only 4 of 16 modelable skills cleared a real F1 bar, and leave-one-out cross-validation was the only option at that sample size. Part 3 deliberately scales up to a much larger, more current, multi-source aggregation of postings to test two things at once: whether the 2016 findings generalize, and whether a harder task (predicting role from the full body text, not just a skill flag from the title) becomes tractable with enough data. Part 3's README and article walk through both results.
+| Metric | Result |
+|--------|--------|
+| Dataset size | 7,523 real job postings |
+| Sources | Indeed · LinkedIn · Glassdoor |
+| Model | Linear SVM + TF-IDF |
+| Accuracy | **0.874** on held-out test set |
+| Classes | Data Analyst · Data Scientist · Data Engineer · AI Engineer |
+| Honest limitation | `min_df=5` drops rare terms like "langchain" (appears in only 4 docs) |
 
-## Part 4: wrapping the classifier in an agent
+---
 
-`part4_agent/` retrains Part 3's exact pipeline on the combined corpus and exposes it two ways: ask a free-text skill question, or paste a posting/resume and get back the predicted role plus a gap analysis of what's missing. It also surfaces a genuine, mechanistically-explained limitation: the classifier misclassifies a real, live "Senior AI Engineer" posting (LangChain, RAG, LLM fine-tuning) as Data Engineer, because `min_df=5` in the TF-IDF vectorizer drops any term appearing in fewer than 5 of the corpus's 7,532 documents — and "langchain" appears in exactly 4. Full writeup and the confident-vs-not-confident comparison in `part4_agent/article.md`.
+## 📁 Repo structure
