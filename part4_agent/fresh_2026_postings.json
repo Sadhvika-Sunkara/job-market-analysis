@@ -1,0 +1,83 @@
+[
+  {
+    "job_title": "Senior AI Engineer",
+    "company": "Egen",
+    "location": "Remote",
+    "category": "AI Engineer",
+    "source_url": "https://jobs.lever.co/egen/1b870652-5768-45e9-b55b-4420e6402314",
+    "date_posted": "2026-09-06",
+    "description_text": "Egen is a fast-growing and entrepreneurial company with a data-first mindset, partnering with clients on Google Cloud and Salesforce. The Senior AI Engineer role focuses on generative AI initiatives, treating AI as a software engineering discipline, spanning prototyping document intelligence and RAG pipelines through production deployment. Key responsibilities: design and deploy end-to-end GenAI applications using Python, LangChain, and Google Cloud; develop advanced retrieval-augmented generation pipelines and semantic search systems; conduct LLM and embedding fine-tuning for domain-specific performance; build agentic workflows automating multi-step reasoning; collaborate with customers on requirements and implementation; apply MLOps best practices for efficient model serving and monitoring. Required technical skills: mastery of Python and shell scripting; experience with Google Gemini, GPT-4, or LLaMA models; expertise in vector databases and semantic search implementation; hands-on Google Cloud (Vertex AI) experience; proficiency with LangChain or LlamaIndex frameworks. Required qualifications: bachelor's or master's degree in Computer Science or related field; 5+ years AI/ML experience; proven production GenAI deployment track record; classic machine learning experience preferred; data engineering and SQL knowledge. Compensation $159,300-$219,245 annually."
+  },
+  {
+    "job_title": "Senior AI Engineer",
+    "company": "Jeeves",
+    "location": "Brazil (Remote)",
+    "category": "AI Engineer",
+    "source_url": "https://jobs.lever.co/tryjeeves/2f00206f-6091-4eed-8b5f-1325afdbfe30",
+    "date_posted": "2026-09-06",
+    "description_text": "Jeeves seeks a Senior AI Engineer to build production-grade AI systems for its financial platform, emphasizing practical implementation of AI-powered features that process real financial data for real businesses rather than research. Responsibilities: designing LLM integration pipelines including RAG and prompt engineering; developing AI features for spend categorization and anomaly detection; maintaining vector search systems; integrating AI services with backend microservices; implementing monitoring and observability; collaborating with data scientists and product teams to move AI from prototype to production. Required qualifications: bachelor's degree in Computer Science or equivalent experience; 5+ years software engineering, 3+ years in production AI/ML systems; hands-on experience with LLM APIs (OpenAI, Anthropic, Cohere); RAG pipeline design and vector database experience; Python proficiency and familiarity with orchestration frameworks like LangChain or LlamaIndex; ML model serving infrastructure knowledge; backend fundamentals including REST APIs and cloud platforms; observability tooling expertise. Preferred: fintech experience, prompt evaluation frameworks, ML lifecycle tools, startup background."
+  },
+  {
+    "job_title": "Data Engineer I",
+    "company": "Dun & Bradstreet",
+    "location": "Hyderabad, India",
+    "category": "Data Engineer",
+    "source_url": "https://jobs.lever.co/dnb/f6a4fe79-0170-4a61-a571-372103189d70",
+    "date_posted": "2026-09-06",
+    "description_text": "Dun & Bradstreet seeks a Data Engineer I to join their Research and Managed Services team in a hands-on, hybrid role, writing and maintaining code for data tools, automations, and pipelines while performing operational tasks, identifying and evaluating internal and external data sources for AI-enabled and traditional workflows. Responsibilities: write, review, test, and maintain code including SQL and Python to build data solutions; automate processes, develop coding standards, create web-scraping solutions and API integrations; support scalable ETL/ELT pipelines for structured and unstructured data; evaluate data sources for relevance, authority, freshness, completeness, coverage, consistency, accessibility; implement AI workflows using LangChain or equivalent orchestration frameworks and monitor performance; monitoring, exception handling, database administration, resolving production incidents, pipeline failures, data-quality issues; collaborate with cross-functional teams. Required qualifications and skills: strong SQL and Python skills; experience with Playwright and Selenium; ETL/ELT workflow development; familiarity with Power BI, Tableau, or other dashboard tools; proficiency with data collection from delimited files, XML, JSON, and PDF; BigQuery experience, AWS/GCP knowledge, AI solution implementation, willingness to learn emerging technologies."
+  },
+  {
+    "job_title": "Lead Data Engineer",
+    "company": "Egen",
+    "location": "Remote",
+    "category": "Data Engineer",
+    "source_url": "https://jobs.lever.co/egen/38a572c3-2981-4970-82a4-03a683c58b25",
+    "date_posted": "2026-09-06",
+    "description_text": "Egen, a fast-growing and entrepreneurial company with a data-first mindset, is hiring an experienced Data Engineer ready to make a significant impact on healthcare. The Lead Data Engineer will drive machine learning and data engineering initiatives while working with cross-functional teams. Responsibilities: design and develop GCP data pipelines for extraction, transformation, and loading; maintain documentation illustrating data storage and processing workflows; collaborate with project teams on work estimation and planning; participate in daily standups; partner with business analysts to translate requirements into technical specifications. Required qualifications: 5+ years as a Data Engineer or Data Architect; proven leadership on technical projects; expert proficiency in Google Cloud Storage (GCS), BigQuery, Cloud Composer/Airflow, Dataproc/Spark; advanced SQL expertise; Unix/Linux shell scripting experience; Data Build Tool (dbt) understanding; CI/CD pipeline experience; Python-based ELT development skills; BigQuery query optimization expertise; business intelligence tool proficiency; machine learning background. Salary $140,000-$190,000 a year."
+  },
+  {
+    "job_title": "Data Analyst",
+    "company": "Bluesight",
+    "location": "United States - Remote",
+    "category": "Data Analyst",
+    "source_url": "https://jobs.lever.co/bluesight/371dd108-f884-48cb-8791-43643bdb5cf4",
+    "date_posted": "2026-09-06",
+    "description_text": "Bluesight seeks a Data Analyst to support implementation of their SaaS products for hospital customers, collecting data, synthesizing results from disparate systems, and developing analytical solutions using business intelligence tools. Work breakdown: validating and analyzing data in Excel 60%, customer-facing interactions 30%, writing or updating SQL, Python, and various other tasks 10%. Responsibilities: validate, reconcile, and analyze data from multiple systems to ensure integrity using Excel; communicate findings and troubleshoot technical issues with customers; partner with implementation leads to track progress and review data points; extract data using SQL across multiple databases; develop solutions to support SFTP automation of ongoing reporting needs; retrieve data and assist with troubleshooting application issues. Required qualifications: bachelor's degree or equivalent experience; 2+ years of experience in data analysis; advanced Microsoft Excel proficiency; moderate SQL experience for extraction and transformation; effective communication with technical and non-technical audiences; strong problem-solving skills and attention to detail; ability to manage multiple projects and meet deadlines; strong interpersonal and customer service skills. Compensation $70,000-$82,000 annually."
+  },
+  {
+    "job_title": "Senior Data Analyst",
+    "company": "Hevo Data",
+    "location": "Bengaluru, India",
+    "category": "Data Analyst",
+    "source_url": "https://jobs.lever.co/hevodata/308fe760-b657-45d3-ab4c-a13efdcf230f",
+    "date_posted": "2026-09-06",
+    "description_text": "Hevo, a no-code data pipeline platform serving 2000+ companies, is hiring a Senior Data Analyst to leverage SQL and analytical expertise for managing, processing, and reporting data, driving insights across the organization. Responsibilities: querying large datasets using SQL for data extraction and manipulation; maintaining and optimizing data warehouse databases; preparing and presenting weekly business reviews (WBRs), forecasts, and tracking key metrics; leading analytics projects on customer funnels and lead acquisition; cross-functional collaboration on strategic initiatives; managing end-to-end analytics projects and mentoring junior analysts; aligning metrics with industry standards. Required qualifications: 5-8 years in quantitative analyst roles, preferably B2B SaaS; SQL proficiency with large dataset experience; dashboard creation experience using Tableau, Looker, or similar tools; strong communication for technical and non-technical audiences; project management capabilities with minimal oversight."
+  },
+  {
+    "job_title": "Senior Business Data Analyst",
+    "company": "TTEC Digital",
+    "location": "Manila (Remote)",
+    "category": "Data Analyst",
+    "source_url": "https://jobs.lever.co/ttecdigital/f0ec4455-3e00-42e6-ab15-0bacfdaa2f2a",
+    "date_posted": "2026-09-06",
+    "description_text": "TTEC Digital is hiring a Senior Business Data Analyst to partner with business and technical teams to deliver data-driven solutions. Responsibilities: performing end-to-end data extraction, transformation, and loading (ETL/ELT); developing insights, dashboards, and reporting to support decision-making. Required qualifications and skills: 5+ years in business/data analytics or related roles with proven delivery experience in cross-functional settings; advanced SQL skills for data analysis and validation; familiarity with cloud platforms (Azure, AWS, GCP); experience using Databricks or modern data platforms; knowledge of BI tools like Power BI and Tableau; understanding of data governance principles (data quality, lineage, metadata, auditability); strong stakeholder management abilities; capacity to communicate complex insights to technical and non-technical audiences; willingness to work US hours."
+  },
+  {
+    "job_title": "Senior Data Scientist",
+    "company": "Sonatype",
+    "location": "Toronto - Remote / Canada - Remote",
+    "category": "Data Scientist",
+    "source_url": "https://jobs.lever.co/sonatype/e7059360-2031-4af1-9a77-92afaeb5e5be",
+    "date_posted": "2026-09-06",
+    "description_text": "Sonatype seeks a Senior Data Scientist to join its AI & Data Science team, providing technical leadership across high-impact AI initiatives while partnering with product, engineering, and security teams to develop practical AI solutions. Responsibilities: provide technical ownership for applied AI initiatives and help define approaches and standards; lead complex AI projects from concept to production, translating business problems into measurable experiments; act as senior internal AI consultant to product and engineering teams; lead development of models for malicious behavior detection, anomaly detection, fraud analysis; design advanced GenAI solutions using LLMs, embeddings, and retrieval-augmented generation; establish experimentation practices including quality metrics, cross-validation, ground-truth evaluation; bridge research and production by designing scalable APIs and services; mentor data scientists and elevate AI practices across the organization. Required qualifications: 7+ years in applied data science, machine learning, or AI engineering; computer science degree or equivalent strongly preferred; strong Python skills and experience with Databricks, scikit-learn, and LLM APIs; experience shipping ML/GenAI applications from prototype to production; deep familiarity with OpenAI, Anthropic/Claude, Hugging Face, and open-weight models; experience with LangGraph, LangChain, or similar orchestration frameworks; strong evaluation mindset with data-driven decision-making ability; git proficiency and collaborative software development practices."
+  },
+  {
+    "job_title": "Data Scientist",
+    "company": "CI&T",
+    "location": "Brazil (Remote/Homeoffice)",
+    "category": "Data Scientist",
+    "source_url": "https://jobs.lever.co/ciandt/662600ba-acbf-462b-a916-b68bfc34d28b",
+    "date_posted": "2026-09-06",
+    "description_text": "CI&T is hiring a Data Scientist to design and implement a two-tier optimization engine: heuristic algorithms for market prioritization and budget allocation across multiple markets, and Mixed-Integer Programming (MIP) optimization to maximize audience impressions delivery within each market. Key requirements: fluent English (conversation and technical documentation); strong background in Data Science, Operations Research, or Optimization Engineering; expertise in Mixed-Integer Programming and solvers like Gurobi or CPLEX; solid experience with AWS; advanced Python programming; heuristic algorithm design for combinatorial problems; production-ready optimization solution delivery; multi-objective optimization capabilities; translating business requirements into mathematical formulations; collaborative work with non-technical stakeholders to co-develop solutions; agile methodology experience (Scrum, 2-week sprints). Nice-to-have: AWS Lambda deployment, advertising/media planning experience, media metrics knowledge, parallel computing expertise."
+  }
+]
