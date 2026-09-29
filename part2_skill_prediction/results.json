@@ -1,0 +1,146 @@
+{
+  "python": {
+    "n_positive": 39,
+    "n_negative": 56,
+    "f1": 0.7115384615384616,
+    "precision": 0.5692307692307692,
+    "recall": 0.9487179487179487,
+    "accuracy": 0.6842105263157895,
+    "always_no_baseline_accuracy": 0.5894736842105264
+  },
+  "r_lang": {
+    "n_positive": 40,
+    "n_negative": 55,
+    "f1": 0.5882352941176471,
+    "precision": 0.4838709677419355,
+    "recall": 0.75,
+    "accuracy": 0.5578947368421052,
+    "always_no_baseline_accuracy": 0.5789473684210527
+  },
+  "sql": {
+    "n_positive": 32,
+    "n_negative": 63,
+    "f1": 0.4418604651162791,
+    "precision": 0.35185185185185186,
+    "recall": 0.59375,
+    "accuracy": 0.49473684210526314,
+    "always_no_baseline_accuracy": 0.6631578947368422
+  },
+  "java": {
+    "n_positive": 24,
+    "n_negative": 71,
+    "f1": 0.5070422535211268,
+    "precision": 0.3829787234042553,
+    "recall": 0.75,
+    "accuracy": 0.631578947368421,
+    "always_no_baseline_accuracy": 0.7473684210526316
+  },
+  "tableau": {
+    "n_positive": 15,
+    "n_negative": 80,
+    "f1": 0.4117647058823529,
+    "precision": 0.3684210526315789,
+    "recall": 0.4666666666666667,
+    "accuracy": 0.7894736842105263,
+    "always_no_baseline_accuracy": 0.8421052631578947
+  },
+  "sas": {
+    "n_positive": 20,
+    "n_negative": 75,
+    "f1": 0.3870967741935484,
+    "precision": 0.2857142857142857,
+    "recall": 0.6,
+    "accuracy": 0.6,
+    "always_no_baseline_accuracy": 0.7894736842105263
+  },
+  "hadoop": {
+    "n_positive": 32,
+    "n_negative": 63,
+    "f1": 0.4835164835164835,
+    "precision": 0.3728813559322034,
+    "recall": 0.6875,
+    "accuracy": 0.5052631578947369,
+    "always_no_baseline_accuracy": 0.6631578947368422
+  },
+  "spark": {
+    "n_positive": 18,
+    "n_negative": 77,
+    "f1": 0.42105263157894735,
+    "precision": 0.27586206896551724,
+    "recall": 0.8888888888888888,
+    "accuracy": 0.5368421052631579,
+    "always_no_baseline_accuracy": 0.8105263157894737
+  },
+  "machine_learning": {
+    "n_positive": 40,
+    "n_negative": 55,
+    "f1": 0.6666666666666666,
+    "precision": 0.5483870967741935,
+    "recall": 0.85,
+    "accuracy": 0.6421052631578947,
+    "always_no_baseline_accuracy": 0.5789473684210527
+  },
+  "statistics": {
+    "n_positive": 64,
+    "n_negative": 31,
+    "f1": 0.7692307692307693,
+    "precision": 0.7575757575757576,
+    "recall": 0.78125,
+    "accuracy": 0.6842105263157895,
+    "always_no_baseline_accuracy": 0.6736842105263158
+  },
+  "data_mining": {
+    "n_positive": 30,
+    "n_negative": 65,
+    "f1": 0.6133333333333333,
+    "precision": 0.5111111111111111,
+    "recall": 0.7666666666666667,
+    "accuracy": 0.6947368421052632,
+    "always_no_baseline_accuracy": 0.6842105263157895
+  },
+  "data_visualization": {
+    "n_positive": 22,
+    "n_negative": 73,
+    "f1": 0.34782608695652173,
+    "precision": 0.2553191489361702,
+    "recall": 0.5454545454545454,
+    "accuracy": 0.5263157894736842,
+    "always_no_baseline_accuracy": 0.7684210526315789
+  },
+  "big_data": {
+    "n_positive": 32,
+    "n_negative": 63,
+    "f1": 0.4888888888888889,
+    "precision": 0.3793103448275862,
+    "recall": 0.6875,
+    "accuracy": 0.5157894736842106,
+    "always_no_baseline_accuracy": 0.6631578947368422
+  },
+  "communication": {
+    "n_positive": 36,
+    "n_negative": 59,
+    "f1": 0.47368421052631576,
+    "precision": 0.45,
+    "recall": 0.5,
+    "accuracy": 0.5789473684210527,
+    "always_no_baseline_accuracy": 0.6210526315789473
+  },
+  "presentation": {
+    "n_positive": 18,
+    "n_negative": 77,
+    "f1": 0.3492063492063492,
+    "precision": 0.24444444444444444,
+    "recall": 0.6111111111111112,
+    "accuracy": 0.5684210526315789,
+    "always_no_baseline_accuracy": 0.8105263157894737
+  },
+  "business_intelligence": {
+    "n_positive": 16,
+    "n_negative": 79,
+    "f1": 0.2222222222222222,
+    "precision": 0.1724137931034483,
+    "recall": 0.3125,
+    "accuracy": 0.631578947368421,
+    "always_no_baseline_accuracy": 0.8315789473684211
+  }
+}

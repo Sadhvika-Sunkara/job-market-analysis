@@ -1,0 +1,432 @@
+{
+  "n_rows_modeled": 7523,
+  "class_names": [
+    "ai_ml_engineer",
+    "data_analyst",
+    "data_engineer",
+    "data_scientist"
+  ],
+  "class_counts": {
+    "data_scientist": 2902,
+    "data_analyst": 2246,
+    "data_engineer": 1841,
+    "ai_ml_engineer": 534
+  },
+  "feature_matrix_shape_train": [
+    6018,
+    6068
+  ],
+  "feature_matrix_shape_test": [
+    1505,
+    6068
+  ],
+  "n_tfidf_features": 6000,
+  "n_engineered_features": 68,
+  "engineered_feature_names": [
+    "skill_python",
+    "skill_sql",
+    "skill_r_lang",
+    "skill_scala",
+    "skill_java",
+    "skill_cpp",
+    "skill_machine_learning",
+    "skill_deep_learning",
+    "skill_tensorflow",
+    "skill_pytorch",
+    "skill_scikit_learn",
+    "skill_keras",
+    "skill_nlp",
+    "skill_computer_vision",
+    "skill_neural_network",
+    "skill_xgboost",
+    "skill_statistics",
+    "skill_ab_testing",
+    "skill_regression",
+    "skill_classification_model",
+    "skill_llm",
+    "skill_spark",
+    "skill_hadoop",
+    "skill_kafka",
+    "skill_airflow",
+    "skill_etl",
+    "skill_data_warehouse",
+    "skill_snowflake",
+    "skill_dbt",
+    "skill_kubernetes",
+    "skill_docker",
+    "skill_aws",
+    "skill_azure",
+    "skill_gcp",
+    "skill_redshift",
+    "skill_databricks",
+    "skill_nosql",
+    "skill_mongodb",
+    "skill_data_pipeline",
+    "skill_data_lake",
+    "skill_tableau",
+    "skill_power_bi",
+    "skill_excel",
+    "skill_looker",
+    "skill_sql_server",
+    "skill_data_visualization",
+    "skill_dashboard",
+    "skill_google_analytics",
+    "skill_kpi",
+    "skill_stakeholder",
+    "skill_reporting",
+    "skill_git",
+    "skill_linux",
+    "skill_agile",
+    "skill_api",
+    "skill_ci_cd",
+    "n_skills_total",
+    "group_lang_core_count",
+    "group_ml_ds_count",
+    "group_data_eng_count",
+    "group_bi_analyst_count",
+    "group_eng_general_count",
+    "mentions_bachelor",
+    "mentions_master",
+    "mentions_phd",
+    "years_experience_required",
+    "description_length",
+    "word_count"
+  ],
+  "cv_results": {
+    "MultinomialNB": {
+      "mean_macro_f1": 0.6169710634962812,
+      "std_macro_f1": 0.005255681719459659,
+      "folds": [
+        0.6122057369535356,
+        0.612474344927562,
+        0.6140558593458697,
+        0.620555589316814,
+        0.6255637869376245
+      ]
+    },
+    "LogisticRegression": {
+      "mean_macro_f1": 0.783680696952455,
+      "std_macro_f1": 0.011202894069229028,
+      "folds": [
+        0.780314081475473,
+        0.8050272124393255,
+        0.7805117674420265,
+        0.7807913946386115,
+        0.7717590287668389
+      ]
+    },
+    "LinearSVM": {
+      "mean_macro_f1": 0.8158335246367499,
+      "std_macro_f1": 0.004296958258900041,
+      "folds": [
+        0.8181829161465843,
+        0.8217049412454135,
+        0.8138932851888051,
+        0.8164905273202896,
+        0.8088959532826567
+      ]
+    },
+    "RandomForest": {
+      "mean_macro_f1": 0.7945049604768655,
+      "std_macro_f1": 0.00977841817419743,
+      "folds": [
+        0.792903272582766,
+        0.8021748304322681,
+        0.7780599879923192,
+        0.8064911123384062,
+        0.7928955990385673
+      ]
+    }
+  },
+  "best_model_by_cv": "LinearSVM",
+  "test_results": {
+    "model": "LinearSVM",
+    "accuracy": 0.8744186046511628,
+    "macro_f1": 0.8316642972045039,
+    "weighted_f1": 0.8741211228869903,
+    "macro_roc_auc_ovr": 0.9608701497422779,
+    "weighted_roc_auc_ovr": 0.9667956322567488,
+    "confusion_matrix": [
+      [
+        69,
+        4,
+        11,
+        23
+      ],
+      [
+        0,
+        414,
+        13,
+        22
+      ],
+      [
+        10,
+        16,
+        325,
+        17
+      ],
+      [
+        25,
+        23,
+        25,
+        508
+      ]
+    ],
+    "classification_report": "                precision    recall  f1-score   support\n\nai_ml_engineer      0.663     0.645     0.654       107\n  data_analyst      0.906     0.922     0.914       449\n data_engineer      0.869     0.883     0.876       368\ndata_scientist      0.891     0.874     0.883       581\n\n      accuracy                          0.874      1505\n     macro avg      0.832     0.831     0.832      1505\n  weighted avg      0.874     0.874     0.874      1505\n"
+  },
+  "logreg_test_results": {
+    "accuracy": 0.825249169435216,
+    "macro_f1": 0.7837647127878757,
+    "macro_roc_auc_ovr": 0.9586680253305149
+  },
+  "top_terms_per_class_logreg": {
+    "ai_ml_engineer": [
+      [
+        "learning engineer",
+        3.097472730168861
+      ],
+      [
+        "ml",
+        2.8195793977901586
+      ],
+      [
+        "computer",
+        1.9017547299207445
+      ],
+      [
+        "machine",
+        1.8569265703759001
+      ],
+      [
+        "distributed",
+        1.6738228584019643
+      ],
+      [
+        "distributed systems",
+        1.6686817778445655
+      ],
+      [
+        "computer science",
+        1.5409233166004848
+      ],
+      [
+        "ai",
+        1.4872569677718372
+      ],
+      [
+        "experiments",
+        1.4840539171164302
+      ],
+      [
+        "practical",
+        1.4471568422907666
+      ],
+      [
+        "fundamentals",
+        1.3944115676316748
+      ],
+      [
+        "learning",
+        1.3448316051717397
+      ],
+      [
+        "degree computer",
+        1.3409385734189248
+      ],
+      [
+        "production",
+        1.3177488444804475
+      ],
+      [
+        "algorithms",
+        1.3084800181834886
+      ]
+    ],
+    "data_analyst": [
+      [
+        "data analyst",
+        6.096449884049166
+      ],
+      [
+        "analyst",
+        5.707145571817573
+      ],
+      [
+        "reports",
+        1.7786432106681456
+      ],
+      [
+        "client",
+        1.241883516007308
+      ],
+      [
+        "financial",
+        1.1207839010246705
+      ],
+      [
+        "excel",
+        1.1062352041299615
+      ],
+      [
+        "operations",
+        1.0825836780440676
+      ],
+      [
+        "data analysis",
+        1.0044266981470775
+      ],
+      [
+        "analyzing",
+        0.933154018668125
+      ],
+      [
+        "business intelligence",
+        0.9178968932563948
+      ],
+      [
+        "analyst location",
+        0.9102350121275005
+      ],
+      [
+        "charlotte",
+        0.8917000451800483
+      ],
+      [
+        "analyst join",
+        0.8817931341011839
+      ],
+      [
+        "ability work",
+        0.8726730573853686
+      ],
+      [
+        "assist",
+        0.8563736799645086
+      ]
+    ],
+    "data_engineer": [
+      [
+        "data engineer",
+        6.110167851240971
+      ],
+      [
+        "engineer",
+        4.394024757516468
+      ],
+      [
+        "data engineering",
+        1.8024793238556038
+      ],
+      [
+        "storage",
+        1.171521097474158
+      ],
+      [
+        "data data",
+        1.1352583068404232
+      ],
+      [
+        "infrastructure",
+        1.1238775201480957
+      ],
+      [
+        "technologies",
+        0.9771523723420039
+      ],
+      [
+        "big data",
+        0.9728460036896236
+      ],
+      [
+        "build data",
+        0.9404589786698918
+      ],
+      [
+        "platform",
+        0.9144888515077642
+      ],
+      [
+        "develop data",
+        0.9075533867224864
+      ],
+      [
+        "integration",
+        0.9065791364586122
+      ],
+      [
+        "ingestion",
+        0.9059409015715706
+      ],
+      [
+        "schema",
+        0.9038299709993761
+      ],
+      [
+        "data warehousing",
+        0.8971054571686655
+      ]
+    ],
+    "data_scientist": [
+      [
+        "data scientist",
+        5.674641401336491
+      ],
+      [
+        "scientist",
+        5.13380707961637
+      ],
+      [
+        "data science",
+        4.964608081248317
+      ],
+      [
+        "statistical",
+        1.6309111269868541
+      ],
+      [
+        "scientist location",
+        1.3384355743214298
+      ],
+      [
+        "analysis",
+        1.292507500660819
+      ],
+      [
+        "data sources",
+        1.082524321793613
+      ],
+      [
+        "sources",
+        1.0672910118210954
+      ],
+      [
+        "predictive",
+        1.0576995617415295
+      ],
+      [
+        "scientist join",
+        1.0405931010523304
+      ],
+      [
+        "models",
+        1.0039131019142842
+      ],
+      [
+        "scientist responsible",
+        0.9878807271175261
+      ],
+      [
+        "data sciences",
+        0.983843243410924
+      ],
+      [
+        "complex",
+        0.9506155833863131
+      ],
+      [
+        "analytics",
+        0.923546288437398
+      ]
+    ]
+  }
+}
